@@ -15,3 +15,18 @@
     --corPrincipal: #f9ca24;
     --corSecundaria: #111;
 }
+
+.input {
+    text-align: center;
+}
+
+.input input {
+    padding: 8px;
+    margin: 12px 0;
+    background-color: var(--corPrincipal);
+    color: none;
+    outline: var(--corPrincipal);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
